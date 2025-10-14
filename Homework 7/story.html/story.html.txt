@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Homework 7 - Story</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+body {
+min-height: 100vh;
+background: url("images/background.jpg") center/cover no-repeat;
+color: #000;
+}
+.story { background: rgba(255,255,255,0.8); padding: 10px; }
+</style>
+</head>
+<body>
+<nav>
+<a href="index.html">Home</a> |
+<a href="story.html">Story</a> |
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="story box">
+<h1 class="purple">A Short Story</h1>
+<p id="note">I like making lattes at home. It saves money and tastes good.</p>
+</div>
+</body>
+</html>

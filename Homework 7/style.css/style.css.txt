@@ -1,0 +1,6 @@
+.purple { color: purple; }
+.box { border: 1px solid #ccc; padding: 10px; }
+
+/* ids (two separate ids used on the pages) */
+#big { font-size: 24px; }
+#note { background: #f7f7f7; padding: 6px; }

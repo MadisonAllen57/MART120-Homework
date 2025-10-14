@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homework 7 - Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- embedded styles (affect 3+ tags) -->
+  <style>
+    h2 { color: #333; }
+    p { line-height: 1.5; }
+    a { color: purple; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="story.html">Story</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- inline style #1 -->
+  <h1 id="big" class="purple" style="text-align:center;">Welcome</h1>
+
+  <p id="note" class="box">This site is styled for Homework 7.</p>
+
+  <h2 class="purple">Hobbies</h2>
+  <ul class="box">
+    <!-- inline style #2 -->
+    <li style="font-style: italic;">Making coffee</li>
+    <li>Road trips</li>
+    <li>Design</li>
+  </ul>
+
+  <h2>Favorite Restaurants</h2>
+  <ul>
+    <li><a href="https://www.starbucks.com" target="_blank">Starbucks</a></li>
+    <li><a href="https://www.dunkindonuts.com" target="_blank">Dunkin'</a></li>
+    <li><a href="https://www.chick-fil-a.com" target="_blank">Chick-fil-A</a></li>
+  </ul>
+
+  <h2>Favorite Websites</h2>
+  <ol>
+    <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+    <li><a href="https://www.pinterest.com" target="_blank">Pinterest</a></li>
+    <li><a href="https://www.tiktok.com" target="_blank">TikTok</a></li>
+  </ol>
+</body>
+</html>
