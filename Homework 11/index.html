@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>p5.js Exit Game (Beginner)</title>
+    <!-- p5.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+    <!-- your sketch code -->
+    <script src="sketch.js"></script>
+    <style>
+      body { margin: 0; background: #111; color: #eee; font-family: sans-serif; }
+      .hud { position: fixed; top: 8px; left: 8px; background: rgba(0,0,0,.4); padding: 6px 8px; border-radius: 6px; font-size: 12px; }
+      .hud code { color: #ffde59; }
+    </style>
+  </head>
+  <body>
+    <div class="hud">
+      <div><b>Controls:</b> Arrow Keys to move. Click once to place a static obstacle.</div>
+      <div>Goal: Reach the yellow <code>EXIT</code> to win.</div>
+    </div>
+  </body>
+</html>
